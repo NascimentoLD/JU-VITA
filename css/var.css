@@ -1,0 +1,22 @@
+/* ----- VARIAVEIS ------ */
+
+:root{
+    /* ----- CORES ----- */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-very-light-orange: #FFF9F3;
+    --color-light-orange: #F6E4D0;
+    --color-dark-orange: #EC8922;
+    --color-green: #6DC35D;
+    --color-dark-green: #3F7333;
+
+    /* ----- FONTES ----- */
+    --font-family: "Oswald", sans-serif;
+    --font-size-title: 32px;
+    --font-size-paragraph: 20px;
+    --font-size-button: 20px;
+    --font-weight-light: 300;
+    --font-weight-medium: 500;
+    --font-weight-bold: 900;
+
+}
