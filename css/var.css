@@ -12,9 +12,9 @@
 
     /* ----- FONTES ----- */
     --font-family: "Oswald", sans-serif;
-    --font-size-title: 32px;
-    --font-size-paragraph: 20px;
-    --font-size-button: 20px;
+    --font-size-title: 2rem;
+    --font-size-paragraph: 1.25rem;
+    --font-size-button: 1.25rem;
     --font-weight-light: 300;
     --font-weight-medium: 500;
     --font-weight-bold: 900;
