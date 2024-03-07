@@ -314,3 +314,120 @@ button{
     color: var(--color-green);
     margin-left: 32px;
 }
+
+/* ----- FOOTER ----- */
+
+footer{
+    background-color: var(--color-light-orange);    
+}
+
+footer .container{
+    display: flex;
+    height: 491px;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+footer .sitemap{
+    display: flex;
+    height: 293px;
+    padding-right: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-right: 1px solid #000;
+    font-family: var(--font-family);
+    font-size: var(--font-size-paragraph);
+    font-weight: 700;
+}
+
+footer .sitemap ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    font-weight: 400;
+    list-style-type: disc;
+}
+
+footer .enderecos{
+    display: flex;
+    height: 293px;
+    padding-right: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-right: 1px solid #000;
+    font-family: var(--font-family);
+    font-size: var(--font-size-paragraph);
+    font-weight: 700;
+}
+
+footer .enderecos-itens{
+    display: flex;
+    gap: 40px;
+}
+
+footer .enderecos-itens address{
+    font-weight: 400;
+}
+
+footer .un01, .un02, .un03{
+    width: 178px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+footer .contatos{
+    display: flex;
+    height: 293px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-paragraph);
+    font-weight: 700;
+}
+
+footer .contatos p{
+    font-weight: 400;
+}
+
+footer .contatos .redes-sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    font-size: 24px;
+}
+
+footer .dev{
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-family);
+    line-height: 30px;
+}
+
+footer .dev h2{
+    font-size: var(--font-size-paragraph);
+    font-weight: 400;
+}
+
+footer .dev p{
+    font-weight: 300;
+}
